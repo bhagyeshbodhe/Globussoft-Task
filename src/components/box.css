@@ -1,0 +1,41 @@
+.box {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.numbers {
+  margin: 0 12px;
+}
+
+.firstIcon {
+  color: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(233, 233, 55);
+}
+
+.secondIconDiv {
+  flex-grow: 1;
+  text-align: end;
+}
+.green {
+  color: green;
+}
+.gray {
+  color: gray;
+}
+.redtext {
+  color: red;
+}
