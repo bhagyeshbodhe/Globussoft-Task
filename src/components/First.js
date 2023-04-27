@@ -26,7 +26,11 @@ const First = () => {
           borderRadius: 4,
         }}
       >
-        <CardContent>
+        <CardContent
+          sx={{
+            padding: "4px 8px",
+          }}
+        >
           <Typography
             component="span"
             sx={{
@@ -39,15 +43,14 @@ const First = () => {
           >
             <StarIcon />
           </Typography>
-          <Typography variant="h6" component="div">
+          <Typography sx={{ fontWeight: "bold", fontSize: 16 }} component="div">
             Congratulations John
           </Typography>
-          <Typography sx={{ mb: 1.5 }}>
+          <Typography sx={{ mb: 1.5, fontSize: "small" }}>
             You have completed 75% of your profile. Your current progress is
             great
           </Typography>
           <Typography
-            variant="h6"
             component="span"
             style={{
               color: "black",
@@ -56,6 +59,7 @@ const First = () => {
               padding: 10,
               borderRadius: 10,
               marginTop: 10,
+              fontSize: "10px",
             }}
           >
             View Profile

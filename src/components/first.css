@@ -3,7 +3,7 @@ img {
 }
 .image {
   margin: auto;
-  width: 200px;
+  width: fit-content;
 }
 .welcome {
   font-weight: 100;
